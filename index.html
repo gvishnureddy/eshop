@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="eshop">
+
+<head>
+
+    <title>{{appName}}</title> 
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"  >
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="bower_components/jquery/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+</head>
+
+<body>
+
+<div class="container" ng-controller="mainCtrl">
+
+        <div ng-include="headerTemplate"></div>
+        <h1>{{appName}}</h1>
+        <div ng-include="templateUrl"></div>
+    </div>
+    <script src="app/home/home.js"></script>
+    <script src="app/home/homeCtrl.js"></script>
+
+ <script src="app/app.js"></script>
+ <script src="app/common/mainCtrl.js"></script>
+</body>
+
+</html>

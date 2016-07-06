@@ -1,0 +1,17 @@
+{
+  "name": "eshop",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "vishnureddy"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vishnuvardhanreddyg/eshop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
